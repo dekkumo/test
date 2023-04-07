@@ -54,6 +54,7 @@ const Header = () => {
               open={open}
               onOpen={onOpen}
               onClose={onClose}
+              disableScrollLock={true}
               anchor='right'
               className={cl.swipe}
           >
