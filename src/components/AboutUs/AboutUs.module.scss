@@ -1,0 +1,30 @@
+.about_body {
+  padding: 150px 0 70px;
+}
+.text_container {
+
+}
+.text_body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text {
+  font-size: 16px;
+  line-height: 145%;
+  color: #7073A2;
+}
+
+@media(max-width: 768px) {
+  .about_body {
+    padding: 120px 0 70px;
+  }
+  .text_body {
+    gap: 32px;
+  }
+}
+@media(max-width: 425px) {
+  .text {
+    font-size: 14px;
+  }
+}
